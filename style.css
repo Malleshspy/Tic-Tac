@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(12, 244, 12);
+   
     text-align: center;
 }
 .container{
@@ -26,10 +26,13 @@ body{
     height: 18vmin;
     border-radius: 1rem;
     border:none;
-    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     font-size: 8vmin;
     color: red;
     background-color: white;
+}
+.box:hover{
+    background-color: #d9d9d9de;
 }
 #Reset{
     border-radius: 1rem;
@@ -37,13 +40,9 @@ body{
     color: aliceblue;
     height:7vmin;
     width: 30vmin;
-
 }
 .msgcontainer{
     height: 15vmin;
-   
-    
-   
 }
 
 #msg{
